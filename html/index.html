@@ -289,43 +289,36 @@
             </div>
     </section>
     <!-- contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-12">
-                    <h2 class="section-heading">CONTACT US</h2>
-                    <h3 class="section-subheading text-muted">お気軽にお問い合わせください</h3>
-                </div>
-            </div>
-            <!-- form 挿入 -->
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleInputName2"></label>
-                            <input type="text" class="form-control" id="exampleInputName2" placeholder="お名前*">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1"></label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Eメール*">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1"></label>
-                            <input type="tel" class="form-control" id="exampleInputEmail1" placeholder="電話番号*">
-                        </div>
-                    </form>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <textarea class="form-control" rows="3" placeholder="お問い合わせ内容*"></textarea>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-12">
-                    <button type="submit" class="btn-xl btn btn-primary">送信</button>
-                </div>
-            </div>
-        </div>
-    </section>
+   <section id="contact">
+       <div class="container text-center">
+           <div class="col-xs-12 col-md-12">
+               <h2 class="section-heading">CONTACT US</h2>
+               <h3 class="section-subheading text-muted">お気軽にお問い合わせください</h3>
+           </div>
+           <!-- form 挿入 -->
+           <form>
+               <div class="col-xs-12 col-md-6">
+                   <div class="form-group">
+                       <input type="text" class="form-control" placeholder="お名前 *" required>
+                   </div>
+                   <div class="form-group">
+                       <input type="email" class="form-control" placeholder="Eメール *" required>
+                   </div>
+                   <div class="form-group">
+                       <input type="tel" class="form-control" placeholder="電話番号 *" required>
+                   </div>
+               </div>
+               <div class="col-xs-12 col-md-6">
+                   <div class="form-group">
+                       <textarea class="form-control" rows="3">お問い合わせ内容 *</textarea>
+                   </div>
+               </div>
+               <div class="col-xs-12 col-md-12">
+                   <button type="submit" class="btn btn-xl">送信</button>
+               </div>
+           </form>
+       </div>
+   </section>
     <!-- map -->
     <section id="map" class="map">
         <!-- GoogleMap 挿入 -->
